@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset - keep locally
+data/raw/*.csv
+
+# Local/server files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+data/cleaned/bank_transactions_cleaned.csv
+data/cleaned/customer_summary.csv
+data/cleaned/dashboard_data.json

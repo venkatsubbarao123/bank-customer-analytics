@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Customer concentration",
+    "value": "Top customer represents 0.09% of total transaction value."
+  },
+  {
+    "label": "Location leader",
+    "value": "MUMBAI leads by value with INR 179,689,117."
+  },
+  {
+    "label": "Peak month",
+    "value": "2016-08 generated the highest transaction value at INR 1,030,599,494."
+  },
+  {
+    "label": "Peak hour",
+    "value": "Hour 20:00 had the most transactions (97,053)."
+  }
+]

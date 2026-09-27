@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bank Customer Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">B</span><div><strong>BankScope</strong><small>Customer intelligence</small></div></div>
+    <nav id="nav"><button class="nav-item active" data-view="overview"><span>01</span>Executive overview</button><button class="nav-item" data-view="customers"><span>02</span>Customer analytics</button><button class="nav-item" data-view="transactions"><span>03</span>Transaction analytics</button><button class="nav-item" data-view="geography"><span>04</span>Geographic analysis</button></nav>
+    <div class="sidebar-foot"><span class="status-dot"></span><span>Pipeline validated</span><small>Processed from the full transaction extract</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div><p class="eyebrow">BANKING ANALYTICS WORKSPACE</p><h1 id="page-title">Executive overview</h1></div><div class="header-meta"><span class="date-chip" id="date-range">Loading...</span><button class="icon-button" id="refresh" title="Reload dashboard data">↻</button></div></header>
+    <section class="filters"><span class="filter-label">Interactive filters</span><label>Year<select id="year-filter"><option value="all">All years</option></select></label><label>Gender<select id="gender-filter"><option value="all">All genders</option></select></label><label>Location<select id="location-filter"><option value="all">All locations</option></select></label><button class="reset" id="reset">Reset filters</button></section>
+    <div id="app"><div class="loading">Loading analytical outputs...</div></div>
+  </main>
+  <script src="app.js?v=20260926"></script>
+</body>
+</html>
